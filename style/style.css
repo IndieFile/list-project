@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/*
+ 
+ ##     ## ########    ###    ########  ######## ########  
+ ##     ## ##         ## ##   ##     ## ##       ##     ## 
+ ##     ## ##        ##   ##  ##     ## ##       ##     ## 
+ ######### ######   ##     ## ##     ## ######   ########  
+ ##     ## ##       ######### ##     ## ##       ##   ##   
+ ##     ## ##       ##     ## ##     ## ##       ##    ##  
+ ##     ## ######## ##     ## ########  ######## ##     ## 
+ 
+*/
+header{
+  height: 56px;
+  background: linear-gradient(#0000007e, #FFFFFF);
+}
+header .logo{
+  padding: 15px ;
+}
+
+
+/*
+ 
+ ##     ##    ###    #### ##    ## 
+ ###   ###   ## ##    ##  ###   ## 
+ #### ####  ##   ##   ##  ####  ## 
+ ## ### ## ##     ##  ##  ## ## ## 
+ ##     ## #########  ##  ##  #### 
+ ##     ## ##     ##  ##  ##   ### 
+ ##     ## ##     ## #### ##    ## 
+ 
+*/
+
+main .container {
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fullWidth{
+width: 100%;
+margin-top: 10px;
+}
+
+.models{
+  display: none;
+}
+.done{
+  display: flex;
+}
