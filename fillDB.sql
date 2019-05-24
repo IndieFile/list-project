@@ -1,13 +1,12 @@
 CREATE TABLE `auto` (
   `id` int(5) NOT NULL,
-  `auto_id` int(5) NOT NULL,
   `name` text NOT NULL
 );
-INSERT INTO `auto` (`id`, `auto_id`, `name`) VALUES
-(1, 1, 'Toyota'),
-(2, 2, 'Audi'),
-(3, 3, 'Mercedes'),
-(4, 4, 'Nissan');
+INSERT INTO `auto` (`id`, `name`) VALUES
+(1, 'Toyota'),
+(2, 'Audi'),
+(3, 'Mercedes'),
+(4, 'Nissan');
 
 CREATE TABLE `models` (
   `id` int(5) NOT NULL,

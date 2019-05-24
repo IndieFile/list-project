@@ -1,5 +1,5 @@
 <?php // Получить массив Автомарок
-$mysqli = new mysqli('127.0.0.1', 'root', '', 'related_list');
+$mysqli = new mysqli('127.0.0.1', 'root', '', 'asd');
 $result = $mysqli->query("SELECT * FROM auto "); // получить все авто
 
 while ($row = $result->fetch_array())
